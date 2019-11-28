@@ -1,0 +1,354 @@
+     LYCO Site Information Form
+     PA-081 Continuously Operating Reference Station
+     See Instructions at:
+       ftp://www.igs.org/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Don Haw
+     Date Prepared            : 2017-03-02
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : lyco_20150423.log
+      Modified/Added Sections : 1
+
+
+1.   Site Identification of the GNSS Monument
+     Site Name                : Lycoming Cnty Cth
+     Four Character ID        : LYCO
+     Monument Inscription     :
+     IERS DOMES Number        : 49537S001
+     CDP Number               : (A4)
+     Monument Description     : STEEL MAST
+       Height of the Monument : (m)
+       Monument Foundation    : ROOF
+       Foundation Depth       : (m)
+     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 2002-06-28T00:00Z
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : IERS DOMES Numnber 49537S001 assigned to
+                              : TRM33429.20+GP.  Sokkia antenna not installed
+                              : at same height.
+                              :
+                              : SiteName changed to match name in NGS Database 
+                              : 2017Mar02 - Haw
+
+
+2.   Site Location Information
+
+     City or Town             : Williamsport
+     State or Province        : Pennsylvania
+     Country                  : United States
+     Tectonic Plate           : North American
+     Approximate Position (ITRF)
+       X coordinate (m)       : 1080273.379
+       Y coordinate (m)       : -4680043.815
+       Z coordinate (m)       : 4182682.602
+       Latitude (N is +)      : +411427.53
+       Longitude (E is +)     : -0770008.36
+       Elevation (m,ellips.)  : 149.4
+     Additional Information   : ARP IGS08 POSITION (EPOCH 2005.00)
+                              : Computed in Aug 2011 using data through gpswk
+                              : 1631.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4700
+     Satellite System         : GPS
+     Serial Number            : 20172949
+     Firmware Version         : 1.20
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2002-06-28
+     Date Removed             : 2005-10-28
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Receiver replaced.
+
+3.2  Receiver Type            : SOK GSR2700 RS
+     Satellite System         : GPS
+     Serial Number            : SVG04110069
+     Firmware Version         : 2.210
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2005-10-28
+     Date Removed             : 2013-11-15T18:30Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Receiver change
+
+3.3  Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS+GLO
+     Serial Number            : 618-01994
+     Firmware Version         : 4.1 May,31,2013
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2013-11-15T19:00Z
+     Date Removed             : 2015-02-19T19:20Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS+GLO
+     Serial Number            : 618-01994
+     Firmware Version         : 4.5 Dec,29,2014 
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2015-02-19T19:27Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM33429.20+GP  NONE
+     Serial Number            : 0220174211
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    :
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : (A4 from rcvr_ant.tab; see instructions)
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2002-06-28
+     Date Removed             : 2005-10-28
+     Additional Information   : Antenna replaced.
+                              : added radome photo confirm 2013aug06 GS
+
+4.2  Antenna Type             : SOK702          NONE
+     Serial Number            : NZA05370024
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2005-10-28
+     Date Removed             : 2006-08-15
+     Additional Information   : Antenna height changed along threaded bolt.
+                              : SOK702 antenna replaced due to lack of
+                              : a calibration study.
+
+4.3  Antenna Type             : SOK600          NONE
+     Serial Number            : NRK04230055
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2006-08-15
+     Date Removed             : 2013-11-15T18:30Z
+     Additional Information   : New antenna installed.
+
+4.4  Antenna Type             : TPSCR.G5        TPSH
+     Serial Number            : 762-11000
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : TPSH
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2013-11-15T19:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : (if external)
+       Effective Dates        : 2002-06-28/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x Humidity Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interference      : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : County of Lycoming, Pennsylvania
+     Preferred Abbreviation   : PA-081
+     Mailing Address          : 48 West 3rd Street
+                              : Williamsport, PA  17701
+     Primary Contact
+       Contact Name           : Fran Jones
+       Telephone (primary)    : 570-320-2139
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 : fjones@lyco.org
+     Secondary Contact
+       Contact Name           : Edward M. Feigles
+       Telephone (primary)    : 570-320-2145
+       Telephone (secondary)  : 570-916-8566
+       Fax                    : 570-320-2135
+       E-mail                 : ed.feigles@lyco.org
+     Additional Information   : added secondary contact
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : ftp://geodesy.noaa.gov/cors
+     Secondary Data Center    : ftp://alt.ngs.noaa.gov/cors
+     URL for More Information : http://geodesy.noaa.gov/CORS
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+       ftp://www.igs.org/pub/station/general/antenna.gra
