@@ -1,0 +1,23 @@
+\contentsline {section}{\numberline {1}Overview}{1}% 
+\contentsline {section}{\numberline {2}Work Done}{1}% 
+\contentsline {subsection}{\numberline {2.1}Trilateration}{1}% 
+\contentsline {subsection}{\numberline {2.2}Postition}{1}% 
+\contentsline {subsection}{\numberline {2.3}Position Vectors}{1}% 
+\contentsline {subsection}{\numberline {2.4}Solving the Lambert Problem}{1}% 
+\contentsline {subsection}{\numberline {2.5}Pseudoranges}{1}% 
+\contentsline {section}{\numberline {3}Conclusion}{1}% 
+\contentsline {subsection}{\numberline {3.1}Results}{1}% 
+\contentsline {subsection}{\numberline {3.2}Sources of Error}{1}% 
+\contentsline {subsection}{\numberline {3.3}Limitations}{1}% 
+\contentsline {section}{\numberline {A}Code}{1}% 
+\contentsline {subsection}{\numberline {A.1}Main Analysis Code}{1}% 
+\contentsline {subsection}{\numberline {A.2}Parameter Setting}{1}% 
+\contentsline {subsection}{\numberline {A.3}Data Setting}{3}% 
+\contentsline {subsection}{\numberline {A.4}Trilateration}{4}% 
+\contentsline {subsection}{\numberline {A.5}Piece of Code 4}{4}% 
+\contentsline {subsection}{\numberline {A.6}Piece of Code 5}{4}% 
+\contentsline {section}{\numberline {B}Group Work Distribution}{4}% 
+\contentsline {subsection}{\numberline {B.1}Tyler Chotoo}{4}% 
+\contentsline {subsection}{\numberline {B.2}Abubakr Hamid}{4}% 
+\contentsline {subsection}{\numberline {B.3}Richard Quarles}{4}% 
+\contentsline {subsection}{\numberline {B.4}Blaire Weinberg}{5}% 

@@ -1,3 +1,6 @@
+% This script contains all of the data pulled from online for the project
+% Author: Blaire Weinberg
+
 %% G32
 t_sat1 = [datetime(2019, 09, 29, 20, 0, 0); 
           datetime(2019, 09, 30, 3, 12, 30)]; % YY-MM-DD hh:mm:ss

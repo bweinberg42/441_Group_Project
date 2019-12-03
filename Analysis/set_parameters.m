@@ -1,5 +1,6 @@
 % Script to initialize global parameters/formatting for ENAE 404
 % Inludes things like fundamental constants, planetary radii, etc.
+% Author: Blaire Weinberg
 
 % Formatting
 format long g
