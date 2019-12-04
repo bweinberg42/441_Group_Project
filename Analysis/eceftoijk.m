@@ -5,4 +5,3 @@ function rijk = eceftoijk(r,gst)
          -sin(gst) cos(gst) 0;
          0 0 1];
     rijk = inv(Rz)*r;
-end

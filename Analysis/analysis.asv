@@ -16,14 +16,13 @@ gst_t1 = GST(T1, t1);
 gst_t2_sat1 = GST(T2, t2_sat1); 
 gst_t2_sat2 = GST(T2, t2_sat2); 
 
-ijk_t1_sat1 = eceftoijk(rho_njtr_t1_sat1, gst_t1)
-ijk_t2_sat1 = eceftoijk(rho_njtr_t2_sat1, gst_t1)
-ijk_t1_sat2 = eceftoijk(rho_njtr_t1_sat2, gst_t1)
-ijk_t2_sat2 = eceftoijk(rho_njtr_t2_sat2, gst_t1)
+ijk_t1_sat1 = coordinate_change(rho_njtr_t1_sat1, gst_t1)
+ijk_t2_sat1 = coordinate_change(rho_njtr_t2_sat1, gst_t1)
+ijk_t1_sat2 = coordinate_change(rho_njtr_t1_sat2, gst_t1)
+ijk_t2_sat2 = coordinate_change(rho_njtr_t2_sat2, gst_t1)
 
 %% Lambert Solver
 dt1 = seconds(t_sat1(2) - t_sat1(1));
 dt2 = seconds(t_sat2(2) - t_sat2(1));
 
-[v01, v1] = Lambert(ijk_t1_sat1, ijk_t2_sat1, dt1, 1, mu_earth, 1e-5)
-[v02, v2] = Lambert(ijk_t1_sat2, ijk_t2_sat2, dt2, 1, mu_earth, 1e-5)
+Lambert(ijk_t1_sat1, ijk_t2_sat1, dt1, 1, mu_earth, 1e-5)
