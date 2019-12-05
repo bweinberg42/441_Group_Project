@@ -27,4 +27,4 @@ r = Rotate * r;
 v = Rotate * v;
 
 % Set output to a standard state space vector
-states = [r; v];
+states = [r];
